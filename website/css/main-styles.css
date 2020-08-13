@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lemonada', cursive;
+    text-rendering: geometricPrecision;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-col {
+    font-size: 5vw;
+    color: blueviolet;
+    flex-direction: column;
+    justify-content: center;
+}
