@@ -1,0 +1,179 @@
+/*General setting */
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?21250175');
+    src: url('../font/fontello.eot?21250175#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?21250175') format('woff2'),
+         url('../font/fontello.woff?21250175') format('woff'),
+         url('../font/fontello.ttf?21250175') format('truetype'),
+         url('../font/fontello.svg?21250175#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* NAVIGATION */
+.logo img {
+    width: 14vw;
+}
+
+.find-eggs {
+    height: 44px;
+    background: orange;
+}
+
+.find-eggs-text {
+    /* To make content vertically center, must apply to column */
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.find-eggs i{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 10px;
+}
+/* Banner */
+.banner {
+    background: red;
+    background-image: url(file:///C:/Users/Saverus/Desktop/Lesson%2013/happy-egg/images/header-bg-1.svg), url(file:///C:/Users/Saverus/Desktop/Lesson%2013/happy-egg/images/header-bg-2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, auto 100%;
+    background-position: -135px -5px, center center;
+}
+
+.banner-text {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h1{
+    font-family: 'Boogaloo', cursive;
+    font-size: 24vw;
+    line-height: 1em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #fcb048;
+}
+
+.banner h3{
+    font-family: 'Open Sans', sans-serif;
+    width: 60vw;
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #244f48;
+}
+
+.banner img{
+    width: 50%;
+    margin: 10px 0 20px 0;
+}
+
+
+/* FAV RECIPE */
+.recipe {
+    background: #fcaf47 url(../images/recipe-bg.svg) no-repeat center bottom;
+}
+.recipe .white {
+    color: #fff;
+}
+.recipe figure img {
+    border-radius: 20px;
+}
+.recipe figure {
+    position: relative;
+}
+.recipe figure span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 20px;
+
+    background: rgb(50,29,12);
+    background: linear-gradient(180deg, rgba(50,29,12,0.3) 50%, rgba(50,29,12,1) 100%);
+    
+    display: flex;
+    align-items: flex-end;
+
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 6.5vw;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* WELCOME */
+.Welcome {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    color: #333;
+    background: #f6f0e8;
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 12vw;
+    line-height: 1em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #fcb048;
+    background: url(../images/welcome-bg.png) left 2px / 100% auto no-repeat;
+} 
+
+/* SIGN UP */
+::placeholder {
+    color: orange;
+}
+input {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 12px 20px;
+    border: 10px solid #61c8d7;
+    color: blueviolet;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    width: 120px;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: violet;
+}
+
+.register-text h4{
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 12vw;
+    line-height: 1em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+/* .Welcome {
+   
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-weight: 400;
+    font-size: 12vw;
+    line-height: 1em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #f6f0e8;
+    background: #f6f0e8;
+    
+} */
